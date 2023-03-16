@@ -335,6 +335,15 @@ globalExcludeTests+=(
 	# https://github.com/docker-library/official-images/pull/8329#issuecomment-656383836
 	[traefik:windowsservercore_override-cmd]=1
 
+	# https://github.com/docker-library/official-images/pull/14248#issuecomment-1471837306
+	[qodana:android-community_override-cmd]=1
+	[qodana:go_override-cmd]=1
+	[qodana:js_override-cmd]=1
+	[qodana:jvm_override-cmd]=1
+	[qodana:jvm-community_override-cmd]=1
+	[qodana:php_override-cmd]=1
+	[qodana:python_override-cmd]=1
+
 	# TODO adjust MongoDB tests to use docker networks instead of links so they can work on Windows (and consider using PowerShell to generate appropriate certificates for TLS tests instead of openssl)
 	[mongo:nanoserver_mongo-basics]=1
 	[mongo:nanoserver_mongo-auth-basics]=1

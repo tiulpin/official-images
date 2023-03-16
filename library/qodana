@@ -2,15 +2,15 @@ Maintainers: Viktor Tiulpin <Viktor.Tiulpin@jetbrains.com> (@tiulpin),
              Kateryna Shlyakhovetska <shkate@jetbrains.com> (@shkate)
 GitRepo: https://github.com/JetBrains/qodana-docker.git
 Architectures: amd64, arm64v8
-GitCommit: f77c2e394c5b8dc8ee15c3d0b3e750e4066d688c
+GitCommit: 5ff986c05da404235ae4affde611236cee57b35d
 
 Tags: 2023.1.1-android-community, 2023.1-android-community, android-community
 Architectures: amd64
 Directory: 2023.1/android-community
 
-Tags: 2023.1.1-dotnet, 2023.1-dotnet, dotnet
-Architectures: amd64, arm64v8
-Directory: 2023.1/dotnet
+# Tags: 2023.1.1-dotnet, 2023.1-dotnet, dotnet
+# Architectures: amd64, arm64v8
+# Directory: 2023.1/dotnet
 
 Tags: 2023.1.1-go, 2023.1-go, go
 Architectures: amd64, arm64v8
